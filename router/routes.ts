@@ -1,3 +1,4 @@
+import Home from "@/components/home.vue";
 import Login from "@/components/login.vue";
 const routes = [
   {
@@ -7,6 +8,10 @@ const routes = [
   {
     path: "/login",
     component: Login,
+  },
+  {
+    path: "/home",
+    component: Home,
   },
 ];
 export default routes;
